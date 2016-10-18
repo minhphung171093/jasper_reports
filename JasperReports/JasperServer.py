@@ -82,6 +82,7 @@ class JasperServer:
         # closed JasperServer would start throwing exceptions. So we better avoid using the session at all.
         command = ['java', '-Djava.awt.headless=true', 'com.nantic.jasperreports.JasperServer', unicode(self.port)]
         print 'TEST###########', cwd, env['CLASSPATH']
+        self.logger.error("TEST########### %s, %s" %(cwd, env['CLASSPATH']))
         process = subprocess.Popen(command, env=env, cwd=cwd)
         if self.pidfile:
             f = open( self.pidfile, 'w')
