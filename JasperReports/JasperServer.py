@@ -81,6 +81,7 @@ class JasperServer:
         # Set headless = True because otherwise, java may use existing X session and if session is
         # closed JasperServer would start throwing exceptions. So we better avoid using the session at all.
         command = ['java', '-Djava.awt.headless=true', 'com.nantic.jasperreports.JasperServer', unicode(self.port)]
+        print 'TEST###########', cwd, env['CLASSPATH']
         process = subprocess.Popen(command, env=env, cwd=cwd)
         if self.pidfile:
             f = open( self.pidfile, 'w')
