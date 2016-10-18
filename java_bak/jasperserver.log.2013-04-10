@@ -1,0 +1,660 @@
+1    [XML-RPC-0] ERROR org.apache.xmlrpc.server.XmlRpcErrorLogger - Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+org.apache.xmlrpc.common.XmlRpcInvocationException: Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:129)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: net.sf.jasperreports.engine.design.JRValidationException: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.verifyDesign(JRAbstractCompiler.java:258)
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.compileReport(JRAbstractCompiler.java:140)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReport(JasperCompileManager.java:215)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:131)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:113)
+	at com.nantic.jasperreports.JasperServer.compile(JasperServer.java:97)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:136)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	... 6 more
+Caused by:
+net.sf.jasperreports.engine.design.JRValidationException: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.verifyDesign(JRAbstractCompiler.java:258)
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.compileReport(JRAbstractCompiler.java:140)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReport(JasperCompileManager.java:215)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:131)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:113)
+	at com.nantic.jasperreports.JasperServer.compile(JasperServer.java:97)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:136)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+14   [XML-RPC-0] ERROR org.apache.xmlrpc.server.XmlRpcErrorLogger - Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+org.apache.xmlrpc.common.XmlRpcInvocationException: Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:129)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: net.sf.jasperreports.engine.design.JRValidationException: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.verifyDesign(JRAbstractCompiler.java:258)
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.compileReport(JRAbstractCompiler.java:140)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReport(JasperCompileManager.java:215)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:131)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:113)
+	at com.nantic.jasperreports.JasperServer.compile(JasperServer.java:97)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:136)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	... 6 more
+Caused by:
+net.sf.jasperreports.engine.design.JRValidationException: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.verifyDesign(JRAbstractCompiler.java:258)
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.compileReport(JRAbstractCompiler.java:140)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReport(JasperCompileManager.java:215)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:131)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:113)
+	at com.nantic.jasperreports.JasperServer.compile(JasperServer.java:97)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:136)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+139734 [XML-RPC-0] ERROR org.apache.xmlrpc.server.XmlRpcErrorLogger - Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	 27. Query parameter not found : plant_id
+org.apache.xmlrpc.common.XmlRpcInvocationException: Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	 27. Query parameter not found : plant_id
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:129)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: net.sf.jasperreports.engine.design.JRValidationException: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	 27. Query parameter not found : plant_id
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.verifyDesign(JRAbstractCompiler.java:258)
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.compileReport(JRAbstractCompiler.java:140)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReport(JasperCompileManager.java:215)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:131)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:113)
+	at com.nantic.jasperreports.JasperServer.compile(JasperServer.java:97)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:136)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	... 6 more
+Caused by:
+net.sf.jasperreports.engine.design.JRValidationException: Report design not valid : 
+	 1. Parameter not found : plant_id
+	 2. Parameter not found : plant_id
+	 3. Parameter not found : plant_id
+	 4. Parameter not found : plant_id
+	 5. Parameter not found : plant_id
+	 6. Parameter not found : plant_id
+	 7. Parameter not found : plant_id
+	 8. Parameter not found : plant_id
+	 9. Query parameter not found : plant_id
+	 10. Query parameter not found : plant_id
+	 11. Query parameter not found : plant_id
+	 12. Query parameter not found : plant_id
+	 13. Query parameter not found : plant_id
+	 14. Query parameter not found : plant_id
+	 15. Query parameter not found : plant_id
+	 16. Query parameter not found : plant_id
+	 17. Query parameter not found : plant_id
+	 18. Query parameter not found : plant_id
+	 19. Query parameter not found : plant_id
+	 20. Query parameter not found : plant_id
+	 21. Query parameter not found : plant_id
+	 22. Query parameter not found : plant_id
+	 23. Query parameter not found : plant_id
+	 24. Query parameter not found : plant_id
+	 25. Query parameter not found : plant_id
+	 26. Query parameter not found : plant_id
+	 27. Query parameter not found : plant_id
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.verifyDesign(JRAbstractCompiler.java:258)
+	at net.sf.jasperreports.engine.design.JRAbstractCompiler.compileReport(JRAbstractCompiler.java:140)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReport(JasperCompileManager.java:215)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:131)
+	at net.sf.jasperreports.engine.JasperCompileManager.compileReportToFile(JasperCompileManager.java:113)
+	at com.nantic.jasperreports.JasperServer.compile(JasperServer.java:97)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:136)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+1    [XML-RPC-0] ERROR org.apache.xmlrpc.server.XmlRpcErrorLogger - Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Error executing SQL statement for : production_major_expenses
+org.apache.xmlrpc.common.XmlRpcInvocationException: Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Error executing SQL statement for : production_major_expenses
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:129)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: net.sf.jasperreports.engine.JRException: Error executing SQL statement for : production_major_expenses
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:169)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:684)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:605)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1281)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:901)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:845)
+	at net.sf.jasperreports.engine.fill.JRFiller.fillReport(JRFiller.java:58)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:417)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:221)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	... 6 more
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "upto_the_month" does not exist
+  Position: 2299
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2062)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1795)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:479)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:367)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:163)
+	... 20 more
+Caused by:
+net.sf.jasperreports.engine.JRException: Error executing SQL statement for : production_major_expenses
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:169)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:684)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:605)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1281)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:901)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:845)
+	at net.sf.jasperreports.engine.fill.JRFiller.fillReport(JRFiller.java:58)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:417)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:221)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "upto_the_month" does not exist
+  Position: 2299
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2062)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1795)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:479)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:367)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:163)
+	... 20 more
+72051 [XML-RPC-0] ERROR org.apache.xmlrpc.server.XmlRpcErrorLogger - Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Error executing SQL statement for : production_major_expenses
+org.apache.xmlrpc.common.XmlRpcInvocationException: Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Error executing SQL statement for : production_major_expenses
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:129)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: net.sf.jasperreports.engine.JRException: Error executing SQL statement for : production_major_expenses
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:169)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:684)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:605)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1281)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:901)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:845)
+	at net.sf.jasperreports.engine.fill.JRFiller.fillReport(JRFiller.java:58)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:417)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:221)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	... 6 more
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "upto_the_month" does not exist
+  Position: 2299
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2062)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1795)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:479)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:367)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:163)
+	... 20 more
+Caused by:
+net.sf.jasperreports.engine.JRException: Error executing SQL statement for : production_major_expenses
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:169)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:684)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:605)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1281)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:901)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:845)
+	at net.sf.jasperreports.engine.fill.JRFiller.fillReport(JRFiller.java:58)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:417)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:221)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: org.postgresql.util.PSQLException: ERROR: relation "upto_the_month" does not exist
+  Position: 2299
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2062)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1795)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:479)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:367)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:163)
+	... 20 more
+247060 [XML-RPC-0] ERROR org.apache.xmlrpc.server.XmlRpcErrorLogger - Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Error executing SQL statement for : report3
+org.apache.xmlrpc.common.XmlRpcInvocationException: Failed to invoke method execute in class com.nantic.jasperreports.JasperServer: Error executing SQL statement for : report3
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:129)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: net.sf.jasperreports.engine.JRException: Error executing SQL statement for : report3
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:169)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:684)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:605)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1281)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:901)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:845)
+	at net.sf.jasperreports.engine.fill.JRFiller.fillReport(JRFiller.java:58)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:417)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:221)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	... 6 more
+Caused by: org.postgresql.util.PSQLException: ERROR: function getopenstock(integer, date) does not exist
+  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
+  Position: 198
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2062)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1795)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:479)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:367)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:163)
+	... 20 more
+Caused by:
+net.sf.jasperreports.engine.JRException: Error executing SQL statement for : report3
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:169)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.createQueryDatasource(JRFillDataset.java:684)
+	at net.sf.jasperreports.engine.fill.JRFillDataset.initDatasource(JRFillDataset.java:605)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.setParameters(JRBaseFiller.java:1281)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:901)
+	at net.sf.jasperreports.engine.fill.JRBaseFiller.fill(JRBaseFiller.java:845)
+	at net.sf.jasperreports.engine.fill.JRFiller.fillReport(JRFiller.java:58)
+	at net.sf.jasperreports.engine.JasperFillManager.fillReport(JasperFillManager.java:417)
+	at com.nantic.jasperreports.JasperServer.privateExecute(JasperServer.java:221)
+	at com.nantic.jasperreports.JasperServer.execute(JasperServer.java:120)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.invoke(ReflectiveXmlRpcHandler.java:115)
+	at org.apache.xmlrpc.server.ReflectiveXmlRpcHandler.execute(ReflectiveXmlRpcHandler.java:106)
+	at org.apache.xmlrpc.server.XmlRpcServerWorker.execute(XmlRpcServerWorker.java:46)
+	at org.apache.xmlrpc.server.XmlRpcServer.execute(XmlRpcServer.java:86)
+	at org.apache.xmlrpc.server.XmlRpcStreamServer.execute(XmlRpcStreamServer.java:200)
+	at org.apache.xmlrpc.webserver.Connection.run(Connection.java:208)
+	at org.apache.xmlrpc.util.ThreadPool$Poolable$1.run(ThreadPool.java:68)
+Caused by: org.postgresql.util.PSQLException: ERROR: function getopenstock(integer, date) does not exist
+  Hint: No function matches the given name and argument types. You might need to add explicit type casts.
+  Position: 198
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2062)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1795)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:479)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:367)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeQuery(AbstractJdbc2Statement.java:271)
+	at net.sf.jasperreports.engine.query.JRJdbcQueryExecuter.createDatasource(JRJdbcQueryExecuter.java:163)
+	... 20 more
